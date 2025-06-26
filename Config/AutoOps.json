@@ -1,0 +1,44 @@
+{
+  "apps": [
+    {
+      "name": "Zoom",
+      "install_url": "https://zoom.us/client/latest/ZoomInstallerFull.msi",
+      "version_check": "https://zoom.us/download",
+      "silent_args": "/quiet /norestart",
+      "uninstall_string": "msiexec.exe /x {C0D68E48-XXXX-XXXX-XXXX-XXXXXXXXXXXX} /quiet"
+    },
+    {
+      "name": "Mozilla Firefox",
+      "install_url": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US",
+      "version_check": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+      "silent_args": "/S",
+      "uninstall_string": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S"
+    },
+    {
+      "name": "7-Zip",
+      "install_url": "https://www.7-zip.org/a/7z2301-x64.msi",
+      "version_check": "https://www.7-zip.org/",
+      "silent_args": "/quiet /norestart",
+      "uninstall_string": "msiexec.exe /x {23170F69-40C1-2702-0000-000001000000} /quiet"
+    },
+    {
+      "name": "Slack",
+      "install_url": "https://downloads.slack-edge.com/releases_x64/SlackSetup.exe",
+      "version_check": "https://slack.com/intl/en-gb/release-notes/windows",
+      "silent_args": "/S",
+      "uninstall_string": "\"%LOCALAPPDATA%\\slack\\Update.exe\" --uninstall -s"
+    },
+
+    {
+      "name": "FakeApp",
+      "install_url": "https://example.com/fakeapp/fakeinstaller.msi",
+      "version_check": "https://example.com/fakeapp/version",
+      "silent_args": "/quiet /norestart",
+      "uninstall_string": "msiexec.exe /x {00000000-FAKE-GUID-1234-FAKEAPP000000} /quiet"
+    }
+  ],
+  "logging": {
+    "log_level": "info",
+    "log_path": "AutoOps/Logs/"
+  }
+}
