@@ -1,4 +1,3 @@
-# AutoOps - Zero-Touch Automation Script
 param(
     [ValidateSet("Install", "Uninstall")]
     [string]$Mode = "Install"
@@ -19,7 +18,7 @@ if (-Not (Test-Path $configPath)) {
 }
 $config = Get-Content $configPath | ConvertFrom-Json
 
-# Ensure logs folder exists
+# Ensuring logs folder exists
 if (-Not (Test-Path $logsPath)) {
     New-Item -ItemType Directory -Path $logsPath | Out-Null
 }
@@ -133,7 +132,7 @@ function Invoke-AutoComplianceCheck {
     }
 }
 
-# ========== MAIN LOGIC ==========
+# Main
 
 if ($Mode -eq "Install") {
     foreach ($app in $config.apps) {
@@ -183,7 +182,7 @@ elseif ($Mode -eq "Uninstall") {
     exit 0
 }
 
-# Register scheduled task to run every 14 days
+# Registering scheduled task to run every 14 days
 $taskName = "AutoOps Every 14 Days"
 $taskExists = Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue
 
@@ -198,7 +197,7 @@ if (-not $taskExists) {
     Write-Host "[INFO] Scheduled task already exists."
 }
 Write-Host "`n[AutoOps Completed]"
-# ==== Generate HTML Dashboard ====
+# HTML Dash
 try {
     Write-Host "`n[INFO] Generating AutoOps Dashboard..."
     & "$PSScriptRoot\Modules\Generate-Dashboard.ps1"
@@ -207,7 +206,7 @@ try {
     Write-Warning "[ERROR] Failed to generate dashboard: $_"
 }
 
-# ==== Send Dashboard to Webhook ====
+# Dashboard to webhook
 try {
     Write-Host "`n[INFO] Sending dashboard to webhook..."
     & "$PSScriptRoot\Modules\Send-Webhook.ps1"
