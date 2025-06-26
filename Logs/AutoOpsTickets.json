@@ -1,0 +1,74 @@
+[
+    {
+        "id":  1001,
+        "time":  "2025-06-25T19:00:00Z",
+        "device":  "DESKTOP-123456",
+        "issue":  "Failed to install Zoom",
+        "status":  "open",
+        "action":  "Pending remediation"
+    },
+    {
+        "id":  5051,
+        "device":  "4ZX1RL3",
+        "action":  "The remote server returned an error: (403) Forbidden.",
+        "issue":  "Failed: Slack",
+        "time":  "2025-06-25T18:31:11",
+        "status":  "open"
+    },
+    {
+        "id":  3349,
+        "device":  "4ZX1RL3",
+        "action":  "The remote server returned an error: (404) Not Found.",
+        "issue":  "Failed: FakeApp",
+        "time":  "2025-06-25T18:31:12",
+        "status":  "open"
+    },
+    {
+        "id":  3068,
+        "device":  "4ZX1RL3",
+        "action":  "The remote server returned an error: (404) Not Found.",
+        "issue":  "Failed: FakeApp",
+        "time":  "2025-06-25T18:43:39",
+        "status":  "open"
+    },
+    {
+        "id":  8574,
+        "device":  "4ZX1RL3",
+        "action":  "The remote server returned an error: (404) Not Found.",
+        "issue":  "Failed: FakeApp",
+        "time":  "2025-06-25T18:57:14",
+        "status":  "open"
+    },
+    {
+        "id":  3788,
+        "device":  "4ZX1RL3",
+        "action":  "The remote server returned an error: (404) Not Found.",
+        "issue":  "Failed: FakeApp",
+        "time":  "2025-06-25T19:04:21",
+        "status":  "open"
+    },
+    {
+        "id":  9698,
+        "device":  "4ZX1RL3",
+        "action":  "The remote server returned an error: (404) Not Found.",
+        "issue":  "Failed: FakeApp",
+        "time":  "2025-06-25T19:14:14",
+        "status":  "open"
+    },
+    {
+        "id":  3134,
+        "device":  "4ZX1RL3",
+        "action":  "The remote server returned an error: (404) Not Found.",
+        "issue":  "Failed: FakeApp",
+        "time":  "2025-06-25T19:20:37",
+        "status":  "open"
+    },
+    {
+        "id":  8613,
+        "device":  "4ZX1RL3",
+        "action":  "The remote server returned an error: (404) Not Found.",
+        "issue":  "Failed: FakeApp",
+        "time":  "2025-06-25T19:24:47",
+        "status":  "open"
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "device": "DESKTOP-112233",
+    "assigned_user": "ejames",
+    "purchase_date": "2025-06-25T19:00:00Z",
+    "refresh_due": "2027-06-25T19:00:00Z",
+    "status": "Active",
+    "notes": "Auto-refresh scheduled 2 years from deployment."
+}
