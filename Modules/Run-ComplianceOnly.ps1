@@ -1,4 +1,4 @@
-# Modules/Run-ComplianceOnly.ps1
+# Comp
 
 . "$PSScriptRoot\..\Run-AutoOps.ps1"
 Invoke-AutoComplianceCheck
