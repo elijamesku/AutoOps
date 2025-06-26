@@ -44,7 +44,7 @@ C:\AutoOps
 │   ├── Generate-Dashboard.ps1      # Builds the HTML dashboard from logs
 │   ├── Run-ComplianceOnly.ps1      # Performs compliance checks
 │   └── Send-Webhook.ps1            # Sends log summaries to webhook
-├── Launch-AutoOpsGUI.ps1           # (Planned) GUI entrypoint
+├── Launch-AutoOpsGUI.ps1           # (Planned) GUI entrypoint --- will improve on
 └── Run-AutoOps.ps1                 # Main entry point
 ```
 ## How to Run AutoOps
