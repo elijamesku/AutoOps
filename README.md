@@ -20,16 +20,15 @@ This is not just a script... it's a flexible framework designed to emulate real 
 ## Why AutoOps Exists
 Manual compliance checks, software auditing, and ticket simulation are often time consuming and error prone. AutoOps solves this by:
 
-- Simulating Zero-Touch Operations
-
-- Enabling modular plug-and-play automation
-
-- Generating HTML Dashboards and JSON reports
-
-- Running in user or system context
-
-- Serving as a self-documenting portfolio piece
-
+- Silent installation of applications (EXE/MSI)
+- Compliance auditing (Defender, Firewall, Disk, BitLocker)
+- JSON based config
+- Webhook alerts (e.g. Slack)
+- Auto generated HTML dashboards
+- Ticket simulation for failed installs
+- Scheduled execution every 14 days
+- Works offline with local logs
+- 
 ## Project Structure
 ```
 C:\AutoOps
@@ -83,7 +82,7 @@ Example:
 ```
 ### Output (Live Examples)
 AutoOps Dashboard
-pppppppppppppp
+sdsd
 JSON Ticket Output
 ```json
 {
@@ -126,12 +125,19 @@ Refresh Schedule Output
 
 - Automate software lifecycle steps (future module)
 
-## Future Enhancements
+## Requirements
+- Windows 10 or 11
+
+- PowerShell 5.1+ (or 7+)
+
+- Admin rights for scheduled tasks and installations
+
+## Coming soon
 - GUI module selector (WPF/WinForms)
 
 - Azure Log Analytics integration
 
-- Real-time webhook alerts (Teams/Slack)
+- Real time webhook alerts (Teams/Slack)
 
 - Scheduled execution via Task Scheduler
 
