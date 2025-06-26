@@ -1,5 +1,3 @@
-# Modules\Generate-Dashboard.ps1
-
 $ticketsPath = ".\Logs\AutoOpsTickets.json"
 $htmlPath = ".\Logs\AutoOpsDashboard.html"
 
