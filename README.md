@@ -5,7 +5,7 @@
 # AutoOps: Local Automation Framework for IT Ops
 AutoOps is a modular PowerShellbased automation suite that simulates enterprise grade IT workflows, including software compliance reporting, dashboard generation, webhook alerts, and zero-touch execution... all without requiring Intune or MDM platforms.
 
-This is not just a script... it's a flexible framework designed to emulate real world IT operations, scale across devices, and serve as a live demo of automation first IT administration.
+This is a framework designed to emulate real world IT operations, scale across devices, and serve as a live demo of automation first IT administration.
 
 ```                                
        __        __   _                            _          _   _            ____  _____    _    ____  __  __ _____ 
