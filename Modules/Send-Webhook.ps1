@@ -5,7 +5,7 @@ function Send-AutoOpsWebhookReport {
         [string]$htmlPath = ".\Logs\AutoOpsDashboard.html"
     )
 
-    $webhookUrl = "https://hooks.slack.com/services/webhook"
+    $webhookUrl = "https://hooks.slack.com/services/enterwebhookhere"
 
     if (-Not (Test-Path $htmlPath)) {
         Write-Warning "HTML report not found."
