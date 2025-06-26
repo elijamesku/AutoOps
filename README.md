@@ -2,7 +2,7 @@
 ![Windows](https://img.shields.io/badge/Platform-Windows-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-# AutoOps: Local Automation Framework for IT Operations
+# AutoOps: Local Automation Framework for IT Ops
 AutoOps is a modular PowerShellbased automation suite that simulates enterprise grade IT workflows, including software compliance reporting, dashboard generation, webhook alerts, and zero-touch execution... all without requiring Intune or MDM platforms.
 
 This is not just a script... it's a flexible framework designed to emulate real world IT operations, scale across devices, and serve as a live demo of automation first IT administration.
@@ -56,7 +56,9 @@ cd "C:\AutoOps"
 Run the main entry point:
 ```
 .\Run-AutoOps.ps1
-```
+```  
+![Screenshot 1](https://github.com/elijamesku/AutoOps/blob/main/Images/Screenshot%202025-06-25%20192515.png?raw=true)  
+
 You can also run modules individually for testing:
 
 ```
@@ -81,9 +83,10 @@ Example:
 }
 ```
 ### Output (Live Examples)
-AutoOps Dashboard
-sdsd
-JSON Ticket Output
+AutoOps Dashboard  
+![Screenshot 2](https://github.com/elijamesku/AutoOps/blob/main/Images/Screenshot%202025-06-25%20192624.png?raw=true)
+
+## JSON Ticket Output
 ```json
 {
   "TicketID": "AUTO-1543",
@@ -93,7 +96,10 @@ JSON Ticket Output
   "Time": "2025-06-25T19:24:00"
 }
 ```
-Refresh Schedule Output  
+![Screenshot 3](https://github.com/elijamesku/AutoOps/blob/main/Images/Screenshot%202025-06-25%20192741.png?raw=true)  
+![Screenshot 4](https://github.com/elijamesku/AutoOps/blob/main/Images/Screenshot%202025-06-25%20192755.png?raw=true) 
+
+## Refresh Schedule Output  
 ```json
 {
   "LastRun": "2025-06-25T17:02:00",
