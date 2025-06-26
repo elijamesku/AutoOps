@@ -2,7 +2,7 @@ Add-Type -AssemblyName PresentationFramework
 
 # Create Window
 [xml]$xaml = @"
-<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<Window xmlns="http://schemas.microsoft.com/winfx/2024/xaml/presentation"
         Title="AutoOps GUI" Height="220" Width="400" WindowStartupLocation="CenterScreen">
     <Grid Margin="10">
         <StackPanel>
