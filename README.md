@@ -2,8 +2,8 @@
 ![Windows](https://img.shields.io/badge/Platform-Windows-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-# AutoOps: Local Automation Framework for IT Ops
-This system is a modular PowerShell based automation suite that simulates enterprise-grade IT workflows including software compliance checks, dashboard generation, webhook alerts, and zero-touch execution... without requiring Intune or any MDM.
+# AutoOps (Local Automation Framework for IT Ops)
+This system is a modular PowerShell based automation suite that simulates enterprise grade IT workflows including software compliance checks, dashboard generation, webhook alerts, and zero-touch execution... without requiring Intune or any MDM.
 
 
 This is a framework designed to emulate real world IT operations, scale across devices, and serve as a live demo of automation first IT administration.
