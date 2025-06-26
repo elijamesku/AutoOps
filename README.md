@@ -29,7 +29,8 @@ Manual compliance checks, software auditing, and ticket simulation are often tim
 - Ticket simulation for failed installs
 - Scheduled execution every 14 days
 - Works offline with local logs
-- 
+
+  
 ## Project Structure
 ```
 C:\AutoOps
@@ -68,7 +69,7 @@ You can also run modules individually for testing:
 .\Modules\Send-Webhook.ps1
 ```
 
-## Config: Config/AutoOps.json
+## Config
 The AutoOps.json file defines which modules to run and how they behave.
 
 Example:
@@ -83,7 +84,7 @@ Example:
   "outputDirectory": "C:\\AutoOps\\Logs"
 }
 ```
-### Output (Live Examples)
+## Output (Live Examples)
 AutoOps Dashboard  
 ![Screenshot 2](https://github.com/elijamesku/AutoOps/blob/main/Images/Screenshot%202025-06-25%20192624.png?raw=true)
 
