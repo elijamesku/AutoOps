@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 # AutoOps (Local Automation Framework for IT Ops)
-This system is a modular PowerShell based automation suite that simulates enterprise grade IT workflows including software compliance checks, dashboard generation, webhook alerts, and zero-touch execution... without requiring Intune or any MDM
+This system is a modular PowerShell based automation suite that simulates enterprise grade IT workflows including software compliance checks, dashboard generation, webhook alerts, and zero-touch execution... without requiring Intune or any MDM.
 
 
 This is a framework designed to emulate real world IT operations, scale across devices, and serve as a live demo of automation first IT administration.
@@ -21,7 +21,7 @@ This is a framework designed to emulate real world IT operations, scale across d
 ## Why AutoOps Exists
 Manual compliance checks, software auditing, and ticket simulation are often time consuming and error prone. AutoOps solves this by:
 
-- Silent installation of applications (EXE/MSI)
+- Silent installation of applications(EXE/MSI)
 - Compliance auditing (Defender, Firewall, Disk, BitLocker)
 - JSON based config
 - Webhook alerts (e.g. Slack)
@@ -85,7 +85,7 @@ Example:
 }
 ```
 ## Output (Live Examples)
-AutoOps Dashboard  
+AutoOps Dashboard
 ![Screenshot 2](https://github.com/elijamesku/AutoOps/blob/main/Images/Screenshot%202025-06-25%20192624.png?raw=true)
 
 ## JSON Ticket Output
