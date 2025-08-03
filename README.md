@@ -69,7 +69,7 @@ You can also run modules individually for testing:
 .\Modules\Send-Webhook.ps1
 ```
 
-## Config
+## Configuration
 The AutoOps.json file defines which modules to run and how they behave.
 
 Example:
