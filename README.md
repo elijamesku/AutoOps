@@ -140,7 +140,7 @@ AutoOps Dashboard
 
 - Admin rights for scheduled tasks and installations
 
-## Coming soon
+## Coming soon...
 - GUI module selector (WPF/WinForms)
 
 - Azure Log Analytics integration
