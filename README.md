@@ -6,7 +6,7 @@
 This system is a modular PowerShell based automation suite that simulates enterprise grade IT workflows including software compliance checks, dashboard generation, webhook alerts, and zero-touch execution... without requiring Intune or any MDM
 
 
-This is a framework designed to emulate real world IT operations, scale across devices, and serve as a live demo of automation first IT administration.
+This is a framework designed to emulate real world IT operations, scale across devices, and serve as a live demo of automation first IT administration
 
 ```                                
        __        __   _                            _          _   _            ____  _____    _    ____  __  __ _____ 
