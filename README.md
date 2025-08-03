@@ -151,8 +151,7 @@ AutoOps Dashboard
 
 - Auto-merge of logs for historical trend analysis
 
-## License
-This project is licensed under the MIT License.
+
 
 ```                                        
              |  _ \ _____      _____ _ __ ___  __| | | |__  _   _    ___ _   _ _ __(_) ___  ___(_) |_ _   _ 
